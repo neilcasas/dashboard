@@ -342,4 +342,10 @@ button:hover {
 .trending-content>.trending-name {
     font-weight: 500;
     color: var(--accent-color);
+    transition: 0.3s;
+}
+
+.trending-content>.trending-name:hover {
+    font-weight: 500;
+    color: var(--tertiary-color);
 }
