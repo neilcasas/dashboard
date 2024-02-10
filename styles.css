@@ -324,12 +324,22 @@ button:hover {
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
-.trending-content {
-    display: flex;
-    gap: 1rem;
+.trending img {
+    height: 40px;
+    width: 40px;
 }
 
-.trending-content>img {
-    height: 50px;
-    width: 50px;
+.trending-main>div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.trending-content>.trending-desc {
+    font-size: 0.8rem;
+}
+
+.trending-content>.trending-name {
+    font-weight: 500;
+    color: var(--accent-color);
 }
