@@ -1,3 +1,11 @@
+:root {
+    --main-font: 'Arial';
+    --bg-color: rgb(196, 213, 228);
+    --read-color: rgb(244, 244, 244);
+    --accent-color: rgb(43, 191, 255);
+    --text-color: rgb(29, 28, 28);
+}
+
 * {
     margin: 0;
     padding: 0;
