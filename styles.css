@@ -138,7 +138,7 @@ button:hover {
     gap: 0.5rem;
 }
 
-.search input {
+input[type=text] {
     flex: 1;
     padding: 0.3rem;
     border-radius: 20px;
