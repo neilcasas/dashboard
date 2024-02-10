@@ -102,13 +102,26 @@ button:hover {
     background-color: var(--read-color);
     display: flex;
     flex-direction: column;
-    padding: 0.8rem;
+    padding: 1.5rem;
+    gap: 1rem;
 }
 
 
 
 .header>div {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    height: 40px;
+    width: 40px;
 }
 
 .main {
