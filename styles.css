@@ -3,9 +3,9 @@
 :root {
     --header-font: 'Montserrat';
     --main-font: 'Inter';
-    --bg-color: rgb(240, 246, 249);
-    --read-color: rgb(255, 255, 255);
-    --accent-color: rgb(13, 107, 179);
+    --bg-color: #e0e7ff;
+    --read-color: #eef2ff;
+    --accent-color: #6366f1;
     --text-color: rgb(29, 28, 28);
 }
 
@@ -22,7 +22,7 @@ body {
 
 .container {
     display: grid;
-    grid-template-rows: 1fr 6fr;
+    grid-template-rows: minmax(1fr, 15rem) 6fr;
     grid-template-columns: 1fr 6fr;
 }
 
