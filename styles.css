@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&display=swap');
+
 :root {
-    --main-font: 'Arial';
+    --header-font: 'Montserrat';
+    --main-font: 'Inter';
     --bg-color: rgb(196, 213, 228);
     --read-color: rgb(244, 244, 244);
     --accent-color: rgb(43, 191, 255);
@@ -7,12 +10,18 @@
 }
 
 * {
+    font-family: var(--main-font);
     margin: 0;
     padding: 0;
+    font-size: 18px;
 }
 
 .container {
     display: grid;
     grid-template-rows: 1fr 3fr;
     grid-template-columns: 1fr 3fr;
+}
+
+.navbar {
+    grid-row: 1/3;
 }
