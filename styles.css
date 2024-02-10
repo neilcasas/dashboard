@@ -24,7 +24,6 @@ body {
 svg {
     height: 20px;
     width: auto;
-    fill: var(--read-color);
 }
 
 img {
@@ -69,6 +68,10 @@ button:hover {
     gap: 1.5rem;
 }
 
+.navbar svg {
+    fill: var(--read-color);
+}
+
 .logo {
     display: flex;
     padding: 0.5rem;
@@ -111,18 +114,30 @@ button:hover {
     gap: 1rem;
 }
 
-
-
 .header>div {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.search {
+    display: flex;
+    flex: 0.8;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.search input {
+    flex: 1;
+    padding: 0.3rem;
+    border-radius: 20px;
+    border: 1px solid rgb(232, 230, 230);
+}
+
 .profile {
     display: flex;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .profile svg {
