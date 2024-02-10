@@ -146,6 +146,21 @@ button:hover {
     width: auto;
 }
 
+.welcome-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.greeting {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.username {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
 .profile {
     display: flex;
     align-items: center;
@@ -163,7 +178,7 @@ button:hover {
 }
 
 .profile-name {
-    font-weight: 800;
+    font-weight: 500;
 }
 
 .main {
