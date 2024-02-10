@@ -283,8 +283,19 @@ button:hover {
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
-.announcement-main>div>div {
+.announcement-main>div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.announcement-main>div>.announcement-title {
+    font-weight: 500;
     font-size: 0.8rem;
+}
+
+.announcement-main>div>.announcement-desc {
+    font-size: 0.6rem;
 }
 
 .trending {
