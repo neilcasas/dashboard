@@ -234,6 +234,20 @@ button:hover {
     font-size: 0.8rem;
 }
 
+.project-toolbar {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.project-toolbar>svg {
+    transition: 0.3s;
+}
+
+.project-toolbar>svg:hover {
+    fill: var(--accent-color);
+}
+
 .trending {
     grid-column: 2;
 }
