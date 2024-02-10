@@ -40,14 +40,23 @@ svg {
     color: var(--read-color);
     font-weight: 800;
     font-family: var(--header-font);
-    gap: 2rem;
+    gap: 1.5rem;
 }
 
 .logo {
-    font-size: 1.5rem;
+    display: flex;
     padding: 0.5rem;
-    justify-self: center;
-    align-self: center;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo .text {
+    font-size: 1.5rem;
+}
+
+.logo>svg {
+    height: 40px;
 }
 
 .main-list,
@@ -58,6 +67,13 @@ svg {
     padding: 0.8rem;
     list-style-type: none;
     cursor: pointer;
+}
+
+.main-list>div,
+.settings-list>div {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
 }
 
 .header {
