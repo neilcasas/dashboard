@@ -27,6 +27,11 @@ svg {
     fill: var(--read-color);
 }
 
+img {
+    border-radius: 100%;
+    border: 3px solid var(--accent-color);
+}
+
 input[type="text"],
 button {
     appearance: none;
@@ -117,11 +122,21 @@ button:hover {
 .profile {
     display: flex;
     align-items: center;
+    gap: 2rem;
+}
+
+.profile svg {
+    fill: var(--text-color);
 }
 
 .profile img {
     height: 40px;
     width: 40px;
+
+}
+
+.profile-name {
+    font-weight: 800;
 }
 
 .main {
