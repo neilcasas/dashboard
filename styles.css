@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&display=swap');
 
 :root {
-    --header-font: 'Montserrat';
     --main-font: 'Inter';
     --bg-color: #e0e7ff;
     --read-color: #eef2ff;
@@ -28,7 +27,7 @@ svg {
 
 img {
     border-radius: 100%;
-    border: 3px solid var(--accent-color);
+    border: 2px solid var(--accent-color);
 }
 
 input[type="text"],
@@ -53,7 +52,7 @@ button:hover {
 
 .container {
     display: grid;
-    grid-template-rows: 8rem 8fr;
+    grid-template-rows: 1fr 8fr;
     grid-template-columns: 1fr 6fr;
 }
 
@@ -110,7 +109,7 @@ button:hover {
     background-color: var(--read-color);
     display: flex;
     flex-direction: column;
-    padding: 1.5rem;
+    padding: 1rem 2rem;
     gap: 1rem;
 }
 
@@ -132,6 +131,18 @@ button:hover {
     padding: 0.3rem;
     border-radius: 20px;
     border: 1px solid rgb(232, 230, 230);
+}
+
+.welcome {
+    display: flex;
+    gap: 0.8rem;
+    font-family: var(--header-font);
+    align-items: center;
+}
+
+.welcome img {
+    height: 80px;
+    width: auto;
 }
 
 .profile {
