@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
 :root {
-    --main-font: 'Inter';
+    --main-font: 'Roboto', san-serif;
     --bg-color: #e0e7ff;
     --read-color: #eef2ff;
     --accent-color: #6366f1;
@@ -62,7 +62,6 @@ button:hover {
     grid-row: 1/3;
     background-color: var(--accent-color);
     color: var(--read-color);
-    font-weight: 800;
     font-family: var(--header-font);
     gap: 1.5rem;
 }
@@ -81,6 +80,8 @@ button:hover {
 
 .logo .text {
     font-size: 1.5rem;
+    font-family: monospace;
+    font-weight: 800;
 }
 
 .logo>svg {
