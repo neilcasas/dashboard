@@ -323,3 +323,13 @@ button:hover {
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
+
+.trending-content {
+    display: flex;
+    gap: 1rem;
+}
+
+.trending-content>img {
+    height: 50px;
+    width: 50px;
+}
