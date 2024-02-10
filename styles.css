@@ -137,6 +137,11 @@ button:hover {
     box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
 }
 
+::placeholder {
+    color: rgba(202, 202, 202, 0.64);
+    opacity: 1;
+}
+
 .profile {
     display: flex;
     align-items: center;
