@@ -258,6 +258,21 @@ button:hover {
     fill: var(--accent-color);
 }
 
+.announcement {
+    grid-column: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.announcement-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.announcement-main>div>div {
+    font-size: 0.7rem;
+}
+
 .trending {
     grid-column: 2;
 }
